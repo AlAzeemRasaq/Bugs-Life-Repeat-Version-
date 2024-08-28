@@ -4,7 +4,7 @@
 #include <utility>
 #ifndef CLASSES_BUG_H
 #define CLASSES_BUG_H
-enum Direction {North = 1, South, West, Wast};
+enum Direction {North = 1, South = 2, West = 3, East = 4};
 using namespace std;
 
 class Bug {
