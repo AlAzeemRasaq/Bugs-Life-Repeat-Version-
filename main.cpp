@@ -202,20 +202,6 @@ void boardOperation(const std::vector<Bug*>& bugs) { // SFML board
         string line;
         vector<Bug*> bugs;
 
-//        while (getline(file, line)) {
-//            stringstream ss(line);
-//            string type;
-//            int id, x, y, size;
-//            pair<int, int> position;
-//            Direction direction;
-//
-//            ss >> type >> id >> x >> y >> size;
-//            position = make_pair(x, y);
-//
-//            Bug* bug = new Bug(type, id, position, direction, size);
-//            bugs.push_back(bug);
-//        }
-
         while (window.isOpen()) {
             sf::Event event;
             while (window.pollEvent(event)) {
