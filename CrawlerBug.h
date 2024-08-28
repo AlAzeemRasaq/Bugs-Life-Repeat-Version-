@@ -12,7 +12,7 @@ class CrawlerBug: public Bug {
 public:
     CrawlerBug(string type, int id, std::pair<int, int> position, Direction direction, int size);
 
-    virtual void move();
+    void move();
     bool isWayBlocked() const;
 
 
