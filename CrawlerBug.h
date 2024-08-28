@@ -14,8 +14,6 @@ public:
 
     void move();
     bool isWayBlocked() const;
-
-
 };
 
 #endif // CLASSES_CRAWLERBUG_H
