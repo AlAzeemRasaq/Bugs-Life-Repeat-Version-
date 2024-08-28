@@ -57,7 +57,8 @@ int main() {
                    "2. Display all Bugs\n"
                    "3. Find a Bug\n"
                    "4. Display Life History of all Bugs\n"
-                   "5. Exit\n";
+                   "5. Display all Cells with Bugs\n"
+                   "6. Exit\n";
         std::cout << "Enter your choice: ";
         std::cin >> menu;
 
@@ -104,6 +105,11 @@ int main() {
                 break;
             }
             case 5: {
+
+
+                break;
+            }
+            case 6: {
                 std::cout << "Exiting Bug's Life...\n";
 
                 break;
